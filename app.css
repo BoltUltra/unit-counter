@@ -67,3 +67,8 @@ h2 {
 .card-content > div > p {
   font-size: 12px;
 }
+
+.age {
+  font-size: large;
+  font-weight: 700;
+}
