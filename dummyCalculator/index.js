@@ -7,7 +7,7 @@ let divide = document.querySelector(".divide-el");
 let multiply = document.querySelector(".multiply-el");
 let answer = document.getElementById("answer-el");
 
-let value1 = parseInt(firstValue.value);
+let value1 = firstValue.value;
 let value2 = parseInt(secondValue.value);
 
 add.addEventListener("click", addEl);
@@ -17,7 +17,7 @@ multiply.addEventListener("click", multiplyEl);
 
 function addEl() {
   let sum = value1 + value2;
-  console.log(value1);
+  alert(value1.value);
 }
 
 function subtractEl() {
