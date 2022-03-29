@@ -53,3 +53,7 @@ button:hover {
   color: #fff;
   text-transform: capitalize;
 }
+
+footer {
+  margin-top: 20px;
+}

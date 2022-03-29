@@ -193,3 +193,8 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+footer {
+  color: #fff;
+  text-align: center;
+}

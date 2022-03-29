@@ -11,33 +11,16 @@ let poundToKilo = (valuee * 2.205).toFixed(3);
 
 input.textContent = valuee;
 
-document.getElementById("length").textContent =
-  valuee +
-  " Meter(s) = " +
-  meterToFeet +
-  " Feet(s) | " +
-  valuee +
-  " Feet(s) = " +
-  feetToMeter +
-  " Meter(s)";
+document.getElementById(
+  "length"
+).textContent = `${valuee} meter(s) = ${meterToFeet} feet(s) | ${valuee} feet(s) = ${feetToMeter} meter(s)`;
 
-document.getElementById("volume").textContent =
-  valuee +
-  " Liter(s) = " +
-  literToGallon +
-  " gallon(s) | " +
-  valuee +
-  " gallon(s) = " +
-  gallonToLiter +
-  " liter(s)";
+document.getElementById(
+  "volume"
+).textContent = `${valuee} liter(s) = ${literToGallon} gallon(s) | ${valuee} gallon(s) = ${gallonToLiter} liter(s)`;
 
 //   20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos
-document.getElementById("mass").textContent =
-  valuee +
-  " kilo(s) = " +
-  kiloToPound +
-  " pound(s) | " +
-  valuee +
-  " pound(s) = " +
-  poundToKilo +
-  " kilo(s)";
+document.getElementById(
+  "mass"
+).textContent = `${valuee} kilo(s) = ${kiloToPound} pound(s) | ${valuee} pound(s) = ${poundToKilo} kilo(s)`;
+50

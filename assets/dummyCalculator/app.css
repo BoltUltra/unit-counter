@@ -17,6 +17,7 @@ body {
 #answer-el {
   font-size: 30px;
   font-weight: 900;
+  padding: 20px 0;
 }
 
 .buttons {
