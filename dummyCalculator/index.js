@@ -7,30 +7,33 @@ let divide = document.querySelector(".divide-el");
 let multiply = document.querySelector(".multiply-el");
 let answer = document.getElementById("answer-el");
 
-let value1 = firstValue.value;
-let value2 = parseInt(secondValue.value);
-
 add.addEventListener("click", addEl);
 subtract.addEventListener("click", subtractEl);
 divide.addEventListener("click", divideEl);
 multiply.addEventListener("click", multiplyEl);
 
 function addEl() {
-  let sum = value1 + value2;
-  alert(value1.value);
+  let num1 = parseInt(firstValue.value);
+  let num2 = parseInt(secondValue.value);
+  answer.textContent = num1 + num2;
 }
 
 function subtractEl() {
-  //   firstValue + secondValue;
-  alert("You clicked on the subtract button");
+  let num1 = parseInt(firstValue.value);
+  let num2 = parseInt(secondValue.value);
+  answer.textContent = num1 - num2;
 }
 
 function divideEl() {
-  //   firstValue + secondValue;
-  alert("You clicked on the divide button");
+  let num1 = parseInt(firstValue.value);
+  let num2 = parseInt(secondValue.value);
+  answer.textContent = num1 / num2;
 }
 
 function multiplyEl() {
-  //   firstValue + secondValue;
-  alert("You clicked on the multiply button");
+  let num1 = parseInt(firstValue.value);
+  let num2 = parseInt(secondValue.value);
+  answer.textContent = num1 * num2;
 }
+
+setInterval;
