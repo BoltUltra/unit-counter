@@ -80,7 +80,7 @@ btn.addEventListener("click", function () {
   password.textContent = generatedPassword;
   setInterval(() => {
     txt.textContent = "password successfully generated";
-  }, 5000);
+  }, 300);
 });
 
 function getRandomNumber() {
